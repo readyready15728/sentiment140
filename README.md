@@ -16,7 +16,7 @@ tail end of the file.
 
 The initial effort was with a pre-trained model used by Ruby library
 [sentimental](https://github.com/7compass/sentimental) but—no offense to the
-author——this did not prove up to my needs.  I eventually chose to use naïve
+author—this did not prove up to my needs.  I eventually chose to use naïve
 Bayes for this task and looked into Ruby solutions and found
 [nbayes](https://github.com/oasic/nbayes) which seemed simple enough, although
 the classification phase was very slow. I chose a 95%/5% train/test split for
